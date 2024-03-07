@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f1fbfa;
+  background-color: #c9f4f0;
   padding-top: 50px;
 }
 
@@ -61,6 +61,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   padding: 0 20px; 
+  background-color: #93aecc7b;
 }
 
 .presentation-text {
@@ -82,10 +83,13 @@ p {
   max-width: 400px;
   height: auto;
   border-radius: 50%;
-  margin-top: -5%;
   margin-right: 20%;
 }
 
+.information{
+  background-color: #93aecc7b;
+  text-align: left;
+}
 
 .skills,
 .projects {
@@ -99,7 +103,7 @@ p {
 .project-card {
   width: calc(33.33% - 40px);
   margin: 20px;
-  background-color: #fff;
+  background-color: #93aecc7b;
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -118,7 +122,6 @@ p {
 }
 
 footer {
-  color: #fff;
   text-align: center;
   padding: 20px 0;
 }
