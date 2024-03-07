@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1fbfa;
+  padding-top: 50px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #777;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px; 
+}
+
+.presentation-text {
+  flex: 1;
+  margin-right: 20px;
+  max-width: calc(50% - 20px);
+}
+
+.presentation-text h1 {
+  font-size: 48px; 
+}
+
+.presentation-image {
+  flex: 1;
+  text-align: right;
+}
+
+.presentation-image img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: -5%;
+  margin-right: 20%;
+}
+
+
+.skills,
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-card,
+.project-card {
+  width: calc(33.33% - 40px);
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.skill-card img,
+.project-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.project-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
